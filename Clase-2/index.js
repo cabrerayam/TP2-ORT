@@ -27,3 +27,9 @@ console.log(lio);
 //ctl+alt+L turno console.log
 const array = [1,2,3,4,{},[]];
 console.log("🚀 ~ file: index.js:29 ~ array:", array)
+
+// Slice
+const lista = ['fideos', 'chocolatada', 'queso'];
+console.log("🚀 ~ file: index.js:33 ~ lista:", lista)
+const sliceCopy = lista.slice(1);
+console.log("🚀 ~ file: index.js:35 ~ sliceCopy:", sliceCopy)
